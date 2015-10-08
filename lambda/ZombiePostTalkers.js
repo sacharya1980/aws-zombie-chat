@@ -38,7 +38,7 @@ exports.handler = function(event, context)
             "Item":
             {
                 "name":{"S":event.user},
-                "is_typing":{"B": true}
+                "is_typing":{"BOOL": true}
             }
         }
     console.log("Putting item DynamoDB " + params);

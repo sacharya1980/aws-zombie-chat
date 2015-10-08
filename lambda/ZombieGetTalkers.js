@@ -41,7 +41,7 @@ exports.handler = function(event, context)
                 "KeyConditions": {
                     "is_typing": {
                         "AttributeValueList": [{
-                            "B": true
+                            "BOOL": true
                         }],
                         "ComparisonOperator": "EQ"
                     }
